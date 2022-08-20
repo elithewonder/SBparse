@@ -13,7 +13,7 @@ def main():
     if len(sys.argv) == 2:
         logfilename = sys.argv[1]
     else:
-        logfilename = str(raw_input('Log file name:'))
+        logfilename = str(input('Log file name:'))
 
     csvfilename = logfilename[:-3] + 'csv'
     print("Creating " + csvfilename)
